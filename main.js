@@ -1,5 +1,5 @@
 let views = {
-    'about-link': `
+  "about-link": `
         <section id="about">
             <h2>About</h2>
             <div id="about-div">
@@ -9,11 +9,11 @@ let views = {
                 <br>
                 <br>
 
-                <p id="about-p">Outside of coding I love fitness. My life revolves around the outdoors and working out. I take my dog on hikes every weekend. And I try to get a workout in everyday of the week. When I'm not working out or outside I am reading. Huge fan of The Stormlight Archive.</p>
+                <p id="about-p">Outside of coding I love fitness. My life revolves around the outdoors and working out. I take my dog on hikes every weekend. And I try to get a workout in everyday of the week. When I'm not working out or outside I am reading. I'm a huge fan of The Stormlight Archive.</p>
             </div>
         </section>
     `,
-    'skills-link': `
+  "skills-link": `
         <section id="skills">
             <h2>Skills</h2>
                 <ul>
@@ -26,7 +26,7 @@ let views = {
                 </ul>
         </section>
     `,
-    'projects-link': `
+  "projects-link": `
         <section id="projects">
             <h2>Projects</h2>
                 <div id="pokemon">
@@ -39,31 +39,31 @@ let views = {
                 </div>
         </section>
     `,
-    'contact-link': `
+  "contact-link": `
         <section id="contact">
             <h2>Contact</h2>
             <div id="contact-div">
                 <a href="https://github.com/Dalton-Stevens" target="_blank" id="contact-git">GitHub</a>
             </div>
         </section>
-    `
+    `,
 };
 
-const links = document.querySelectorAll('a');
-const main = document.querySelector('main');
+const links = document.querySelectorAll("a");
+const main = document.querySelector("main");
 
-const changeView = evt => {
-    main.innerHTML = '';
-    let section = evt.target.id;
-    main.innerHTML = views[section];
+const changeView = (evt) => {
+  main.innerHTML = "";
+  let section = evt.target.id;
+  main.innerHTML = views[section];
 };
 
 for (let i = 0; i < links.length; i++) {
-    links[i].addEventListener('click', changeView);
-};
+  links[i].addEventListener("click", changeView);
+}
 
 const pageLoad = () => {
-    main.innerHTML = views['about-link'];
+  main.innerHTML = views["about-link"];
 };
 
 pageLoad();

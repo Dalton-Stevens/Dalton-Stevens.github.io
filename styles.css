@@ -1,0 +1,140 @@
+:root {
+    --dutch-white: #E8DAB2;
+    --dark-gray: #6C757D;
+    --light-gray: #ADB5BD;
+    --cream: #FDF0D5;
+    --header-height: 100px;
+    --main-height: calc(100vh - var(--header-height))
+}
+
+header {
+    height: var(--header-height);
+    background-color: var(--dark-gray);
+    color: var(--dutch-white);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-left: 20px;
+    padding-right: 50px;
+
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+a {
+    color: var(--dutch-white);
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 90px;
+}
+
+#me {
+    display: flex;
+    gap: 20px;
+}
+
+main {
+    height: var(--main-height);
+    background-color: var(--light-gray);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+section {
+    min-height: 100%;
+}
+
+h2 {
+    font-size: 60px;
+    color: var(--dutch-white);
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+}
+
+#about-div {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+#about-p {
+    font-size: 50px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+li {
+    font-size: 40px;
+    color: var(--cream);
+}
+
+#pokemon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 5px;
+    border: 1px dashed black;
+    padding: 20px 30px;
+}
+
+h3 {
+    font-size: 30px;
+    color: var(--cream)
+}
+
+p {
+    font-size: 20px;
+    color: var(--cream);
+}
+
+#pokemon-project {
+    font-size: 20px;
+    color: var(--cream);
+}
+
+#pokemon-project:hover {
+    color: darkblue;
+}
+
+#contact-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#contact-git {
+    font-size: 3em;
+    color: var(--cream);
+}
+
+#contact-git:hover {
+    color: darkblue;
+}

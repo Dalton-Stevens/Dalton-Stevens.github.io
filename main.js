@@ -33,7 +33,7 @@ let views = {
                     <h3>Pokemon Team Builder</h3>
                     <p>Plan out your team for your next pokemon game by building a team of six pokemon.</p>
                     <p>JavaScript, HTML, CSS, Express, Axios</p>
-                    <a href="https://youtu.be/ZifLR_XIqv0" target="_blank" id="pokemon-project">Demo Video</a>
+                    <a href="https://youtu.be/Zz0_t0Dyv10" target="_blank" id="pokemon-project">Demo Video</a>
                     <a href="https://github.com/Dalton-Stevens/Foundations-Capstone" target="_blank" id="pokemon-project">GitHub</a>
                     <a href="http://18.216.211.238" target="_blank" id="pokemon-project">Live Site</a>
                 </div>

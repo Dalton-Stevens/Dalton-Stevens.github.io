@@ -3,13 +3,13 @@ let views = {
         <section id="about">
             <h2>About</h2>
             <div id="about-div">
-                <p id="about-p">I am currently in the Web Development program at DevMountain. My love for coding started a few years ago when it was introduced to me by my brother-in-law. I decided to go the bootcamp route and it has been great.</p>
+                <p id="about-p">I am currently in the Web Development program at DevMountain. My interest in coding started a few years ago when it was introduced to me by my brother-in-law.</p>
 
                 <br>
                 <br>
                 <br>
 
-                <p id="about-p">Outside of coding I love fitness. My life revolves around the outdoors and working out. I take my dog on hikes every weekend. And I try to get a workout in everyday of the week. When I'm not working out or outside I am reading. I'm a huge fan of The Stormlight Archive.</p>
+                <p id="about-p">My other interests include fitness and reading. I try to get a workout in everyday of the week. When I'm not on the computer or working out, I am reading. I'm a huge fan of The Stormlight Archive.</p>
             </div>
         </section>
     `,
